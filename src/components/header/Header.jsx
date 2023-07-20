@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className='HeaderBody'>
         <div className="HeaderWrapper">
-            <h2>OCHE <span>META</span></h2>
+           <Link to="/" ><h2>OCHE <span>META</span></h2></Link>
             <nav>
                 <ul>
                     <Link to="/" style={{color: "black"}}>

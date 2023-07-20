@@ -9,7 +9,24 @@
     height: 100%;
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.Wrapper-Land1Box{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .Wrapper-Land1Box img{
+        width: 80%;
+        height: 80%;
+                }
+
 
 
 .Land1Body {
@@ -47,9 +64,6 @@
 .Active {
     color: palevioletred;
 }
-
-
-
 
 .AllProduct {
     width: 100%;
@@ -137,3 +151,17 @@
     font-size: 16px;
     font-family: sans-serif;
 }
+
+.Footer{
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.Footer-wrapper{
+    height: 40vh;
+    width: 90%;
+    background-color: rgb(221, 217, 226);
+}
+
