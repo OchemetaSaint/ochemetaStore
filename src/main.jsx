@@ -6,7 +6,7 @@ import {store} from "./components/Redux/Store.jsx"
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
-import { ThemeProvider } from './components/contex/Themecontext.jsx'
+import { ThemeProvider } from './components/contex/ThemeContext.jsx'
 
 let persistor = persistStore(store);
 
